@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import SanityClient, {urlFor} from '../client.js';
+import SanityClient from '../client.js';
 
 const BlockContent = require('@sanity/block-content-to-react');
 
