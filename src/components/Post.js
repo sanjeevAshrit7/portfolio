@@ -23,11 +23,11 @@ const useStyles = makeStyles({
 function Post() {
     const [postData, setPostData] = useState([]);
     const classes = useStyles();
-    const [expanded, setExpanded] = React.useState(false);
+    // const [expanded, setExpanded] = React.useState(false);
 
-    const handleExpandClick = () => {
-        setExpanded(!expanded);
-    };
+    // const handleExpandClick = () => {
+    //     setExpanded(!expanded);
+    // };
     useEffect(() => {
         SanityClient.fetch(`*[_type == "post"] {
             title,
