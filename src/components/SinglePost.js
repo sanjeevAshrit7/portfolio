@@ -40,7 +40,7 @@ function SinglePost() {
                         <div className='bg-white bg-opacity-75 rounded p-12'>
                             <h1 className='cursive text-3xl lg:text-6xl mb-4'>{singlePost?.title}</h1>
                             <div className='flex justify-center text-gray-800'>
-                                <img src={singlePost?.mainImage?.asset?.url} alt={'NA'} className={'w-10 h-10 rounded-full'}/>
+                                <img src={singlePost?.mainImage?.asset?.url} alt={'spNA'} className={'w-10 h-10 rounded-full'}/>
                                 <p className='cursive flex items-center pl-12 text-2xl'>{singlePost?.name}</p>
                             </div>
                         </div>

@@ -75,7 +75,7 @@ function Projects() {
                                         className={'text-red-500 font-bold hover:text-red-400 text-xl'}
                                     >
                                         View the Project{" "}
-                                        <span role={"img"} aria-label={"right-pointer"}>
+                                        <span aria-label={"right-pointer"}>
                                             👉
                                         </span>
                                     </a>
