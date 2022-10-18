@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SanityClient, { urlFor } from '../client.js';
+import SanityClient from '../client.js';
 
 function Projects() {
     const [projectData, setProjectData] = useState([]);

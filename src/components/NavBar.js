@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
 
 function NavBar() {
-    const [isHover, setIsHover] = useState(false);
+    // const [isHover, setIsHover] = useState(false);
 
-    const handleMouseEnter = () => {
-        setIsHover(true);
-     };
-     const handleMouseLeave = () => {
-        setIsHover(false);
-     };
+    // const handleMouseEnter = () => {
+    //     setIsHover(true);
+    //  };
+    //  const handleMouseLeave = () => {
+    //     setIsHover(false);
+    //  };
   
-     const boxStyle = {
-        backgroundColor: isHover ? 'red' : 'transparent',
-     };
+    //  const boxStyle = {
+    //     backgroundColor: isHover ? 'red' : 'transparent',
+    //  };
 
   return (
     <header className="bg-red-600">

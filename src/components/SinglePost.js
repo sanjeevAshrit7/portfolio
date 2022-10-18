@@ -31,7 +31,7 @@ function SinglePost() {
     },[]);
 
     if(!singlePost) return <div>Loading...</div>
-    
+
     return (
         <main className='bg-gray-200 min-h-screen p-12'>
             <article className='container shadow-lg mx-auto bg-green-100 rounded-lg'>
@@ -47,7 +47,7 @@ function SinglePost() {
                     </div>
                     <img
                         src={singlePost?.mainImage?.asset?.url}
-                        alt={'NA'}
+                        alt={'Not Available'}
                         className={'w-full object-cover rounded-t'}
                         style={{height: "400px"}}
                     />

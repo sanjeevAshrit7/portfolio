@@ -7,12 +7,12 @@ export default SanityClient ({
     dataset: "production"
 });
 
-const config ={
-    projectId: 'glb0jbrj',
-    dataset: 'production',
-    apiVersion: '2022-10-18',
-    useCdn: false
-};
+// const config ={
+//     projectId: 'glb0jbrj',
+//     dataset: 'production',
+//     apiVersion: '2022-10-18',
+//     useCdn: false
+// };
 const builder = imageUrlBuilder(SanityClient);
 
 export function urlFor(source) {
