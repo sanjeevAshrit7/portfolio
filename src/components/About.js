@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SanityClient from '../client.js';
-import image from '../bg.JPG';
+import bg from '../bg.JPG';
 const BlockContent = require('@sanity/block-content-to-react');
 
 function About() {
@@ -24,10 +24,10 @@ function About() {
     // console.log('author', author)
     return (
         <main className='relative'>
-            <img src={image} alt={'Image NA'} className={'absolute w-full '} />
+            <img src={bg} alt={'Image NA'} className={'absolute w-full '} />
             <div className='p-10 lg:pt-48 containe mx-auto relative'>
                 <section className='bg-green-800 rounded-lg shadow-2xl lg:flex p-20'>
-                    <img src={author?.authorImage} className={'rounded w-32 h-32 lg:w-64 lg:h-64 mr-8'} alt={'NAA'} />
+                    <img src={author?.authorImage} className={'rounded w-32 h-32 lg:w-64 lg:h-64 mr-8'} alt={'no image'} />
                     <div className='text-lg flex flex-col justify-center'>
                         <h1
                             className='cursive text-6xl text-green-300 mb-4'

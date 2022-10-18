@@ -28,7 +28,7 @@ function SinglePost() {
         }).catch((error) => {
             console.log(error);
         })
-    },[]);
+    },[slug]);
 
     if(!singlePost) return <div>Loading...</div>
 
