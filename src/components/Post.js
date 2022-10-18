@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom/dist/index.js';
-import SanityClient, { urlFor } from '../client.js';
-import image from '../bg.JPG';
+import SanityClient from '../client.js';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
