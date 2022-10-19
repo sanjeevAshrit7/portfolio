@@ -3,56 +3,31 @@ import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
 
 function NavBar() {
-    // const [isHover, setIsHover] = useState(false);
-
-    // const handleMouseEnter = () => {
-    //     setIsHover(true);
-    //  };
-    //  const handleMouseLeave = () => {
-    //     setIsHover(false);
-    //  };
-  
-    //  const boxStyle = {
-    //     backgroundColor: isHover ? 'red' : 'transparent',
-    //  };
 
   return (
-    <header className="bg-red-600">
+    <header className="bg-blue-300 hover:bg-blue-400">
         <div className="container mx-auto flex justify-between">
             <nav className="inline-flex self-center flex-1 ml-10">
                 <NavLink
                     to={"/"}
-                    // activeClassName={"text-white"}
-                    className={"inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"}
+                    className={"inflex-flex items-center py-6 px-3 mr-4 text-red-400 hover:text-white text-4xl font-bold cursive tracking-widest"}
                 >
                     Sanjeev
-                </NavLink >
+                </NavLink>
                 <NavLink
-                    // onMouseEnter={handleMouseEnter}
-                    // onMouseLeave={handleMouseLeave}
-                    // style={boxStyle}
-                    // activeClassName={"text-red-100 bg-red-700"}
                     to={"/Post"}
-                    className={"inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"}
+                    className={"inflex-flex items-center py-3 px-3 my-6 rounded text-red-400 hover:text-yellow-200 hover:bg-red-900 hover:rounded-xl font-bold"}
                 >
                     Blog Post
                 </NavLink>
                 <NavLink
-                    // onMouseEnter={handleMouseEnter}
-                    // onMouseLeave={handleMouseLeave}
-                    // style={boxStyle}
-                    // activeClassName={"text-red-100 bg-red-700"}
                     to={"/Projects"} 
-                    className={"inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"}>
+                    className={"inflex-flex items-center py-3 px-3 my-6 rounded text-red-400 hover:text-yellow-200 hover:bg-red-900 hover:rounded-xl font-bold"}>
                     Projects
                 </NavLink>
-                <NavLink 
-                    // onMouseEnter={handleMouseEnter}
-                    // onMouseLeave={handleMouseLeave}
-                    // style={boxStyle}
-                    // activeClassName={"text-red-100 bg-red-700"}
+                <NavLink
                     to={"/About"}
-                    className={"inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"}>
+                    className={"inflex-flex items-center py-3 px-3 my-6 rounded text-red-400 hover:text-yellow-200 hover:bg-red-900 hover:rounded-xl font-bold"}>
                     About Me
                 </NavLink>
             </nav>

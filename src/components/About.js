@@ -21,7 +21,7 @@ function About() {
     }, [])
 
     if (!author) return (<div>Loading...</div>)
-    // console.log('author', author)
+
     return (
         <main className='relative'>
             <img src={bg} alt={'scene'} className={'absolute w-full '} />

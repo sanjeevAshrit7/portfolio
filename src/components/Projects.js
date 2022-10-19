@@ -22,7 +22,6 @@ function Projects() {
             tags,
         }`).then((data) => {
             setProjectData(data)
-            // console.log('data', data)
         }).catch((error) => {
             console.log('error', error)
         })
