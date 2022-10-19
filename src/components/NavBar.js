@@ -32,9 +32,9 @@ function NavBar() {
                 </NavLink>
             </nav>
             <div className='inline-flex py-3 px-3 my-6 self-end'>
-                <SocialIcon url='https://twitter.com/?lang=en-in' className='mr-4' target={'_blank'} fgColor={'#fff'} style={{height: 35, width: 35}}/>
-                <SocialIcon url='https://www.instagram.com' className='mr-4' target={'_blank'} fgColor={'#fff'} style={{height: 35, width: 35}}/>
-                <SocialIcon url='https://in.linkedin.com' className='mr-4' target={'_blank'} fgColor={'#fff'} style={{height: 35, width: 35}}/>
+                <SocialIcon url='https://twitter.com/SanjeevAshrit1' className='mr-4' target={'_blank'} fgColor={'#fff'} style={{height: 35, width: 35}}/>
+                <SocialIcon url='https://www.instagram.com/ashrithsanjeev/?igshid=YmMyMTA2M2Y%3D' className='mr-4' target={'_blank'} fgColor={'#fff'} style={{height: 35, width: 35}}/>
+                <SocialIcon url='https://www.linkedin.com/in/sanjeev-ashrit-6313251b7' className='mr-4' target={'_blank'} fgColor={'#fff'} style={{height: 35, width: 35}}/>
             </div>
         </div>
     </header>

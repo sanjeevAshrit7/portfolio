@@ -1,3 +1,4 @@
+import { Avatar } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import SanityClient from '../client.js';
 
@@ -34,15 +35,23 @@ function Projects() {
                 <h2 className='text-lg text-gray-600 mb-12 flex justify-center my-3'>Welcome to my projects page</h2>
                 <section className='grid grid-cols-2 gap-8'>
                     {projectData?.map((project, index) => {
-                        return(
+                        return (
                             <article className='relative rounded-lg shadow-xl bg-white p-16' key={index}>
                                 <h3 className='text-gray-800 text-3xl font-bold mb-2 hover:text-red-700'>
+                                    <img
+                                        alt="Travis Howard"
+                                        src={project?.coverImage?.asset?.url}
+                                        className={'object-cover rounded-full'}
+                                        style={{ height: "50px" }}
+                                    />
                                     <a
                                         href={project?.link}
                                         target={'_blank'}
                                         rel={'noopener noreferrer'}
                                     >
                                         {project?.title}
+                                        &nbsp;
+
                                     </a>
                                 </h3>
                                 <div className='text-gray-500 text-xs space-x-4'>
